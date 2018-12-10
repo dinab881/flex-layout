@@ -1,0 +1,83 @@
+{
+  "sidebarItems": [
+  {
+    "title": "Hotel",
+    "url": "home.html",
+    "icon": "icon-home"
+  },
+  {
+    "title": "Flight",
+    "url": "flight.html",
+    "icon": "icon-aircraft-take-off"
+  },
+  {
+    "title": "Car rental",
+    "url": "car-rental.html",
+    "icon": "icon-key"
+  },
+  {
+    "title": "Tours",
+    "url": "tours.html",
+    "icon": "icon-map"
+  }
+  ],
+  "galleryPhotos" : [
+    {
+      "src": "img/hotel-1.jpg",
+      "title": "Photo of hotel 1"
+    },
+    {
+      "src": "img/hotel-2.jpg",
+      "title": "Photo of hotel 2"
+
+    },
+    {
+      "src": "img/hotel-3.jpg",
+      "title": "Photo of hotel 3"
+    }
+  ],
+  "hotelCharacteristics": [
+    "Close to the beach",
+    "Free airport shuttle",
+    "Air conditioning and heating",
+    "We speak all languages",
+    "Breakfast included",
+    "Free wi-fi in all rooms",
+    "Pets allowed",
+    "Perfect for families"
+  ],
+  "friendsRecommendation": [
+    {
+      "src": "img/user-3.jpg",
+      "title": "Friend 3"
+    },
+    {
+      "src": "img/user-4.jpg",
+      "title": "Friend 4"
+    },
+    {
+      "src": "img/user-5.jpg",
+      "title": "Friend 5"
+    },
+    {
+      "src": "img/user-6.jpg",
+      "title": "Friend 5"
+    }
+  ],
+  "userReviews" : [
+    {
+      "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.",
+      "photo": "img/user-1.jpg",
+      "name": "Nick Smith",
+      "date": "Feb 23d, 2017",
+      "rating": 7.8
+    },
+    {
+      "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.",
+      "photo": "img/user-2.jpg",
+      "name": "Mary Thomas",
+      "date": "13.09.2016",
+      "rating": 9.3
+    }
+  ]
+}

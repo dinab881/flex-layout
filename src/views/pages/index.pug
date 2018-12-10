@@ -1,0 +1,31 @@
+extends ../main-layout
+
+block title
+    | Trillo &mdash; Your all-in-one booking app
+
+block content
+    .container
+        include ../parts/header
+        .content
+            include ../parts/sidebar
+            main.hotel-view
+                include ../parts/gallery
+                include ../parts/overview
+                .detail
+                    .description
+                        p.paragraph
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                        p.paragraph
+                            | Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                        ul.list
+                            each item in hotelCharacteristics
+                                li.list__item= item
+                        include ../parts/recommend
+                    figure.user-reviews
+                        include ../parts/reviews
+                        button.btn-inline Show all
+                            span &rarr;
+                +cta('Good news! We have 4 free rooms for your selected dates!', 'Book now', 'Only 4 rooms left!')
+
+
+

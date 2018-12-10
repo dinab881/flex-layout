@@ -1,0 +1,19 @@
+mixin SVGicon(name, cls)
+        svg(class= `${cls}`)
+            use(xlink:href="/img/sprite.svg#" + name)
+
+mixin nav(className, items, activeItem)
+    ul(class=`${className}`)
+        each item, inx in items
+            li(class=`${className}__item` + ((inx === activeItem) ? ` ${className}__item--active` : ''))
+                a(class=`${className}__link` href=`${item.url}`)
+                    +SVGicon(item.icon, `${className}__icon`)
+                    span= item.title
+
+mixin cta(title, buttonTxt, buttonTxtHover)
+    .cta
+        h2.cta__book-now= title
+        button.btn
+            span.btn__visible= buttonTxt
+            span.btn__invisible= buttonTxtHover
+

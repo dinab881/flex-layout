@@ -1,0 +1,9 @@
+each item in userReviews
+    figure.review
+        blockquote.review__text= item.review
+        figcaption.review__user
+            img(src=`${item.photo}` class="review__photo" alt=`${item.name}`)
+            .review__user-box
+                p.review__user-name= item.name
+                p.review__user-date= item.date
+            .review__rating= item.rating

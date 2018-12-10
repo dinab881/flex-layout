@@ -1,0 +1,11 @@
+.overview
+    h1.overview__heading Hotel Las Palmas
+    .overview__stars
+        each item in [1, 2, 3, 4, 5]
+            +SVGicon('icon-star','overview__icon-star')
+    .overview-location
+        +SVGicon('icon-location-pin','overview__icon-location')
+        button.btn-inline Albufenia, Portugal
+    .overview__rating
+        .overview__rating-average 8.6
+        .overview__rating-count 429 votes
